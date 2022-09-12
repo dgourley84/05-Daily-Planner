@@ -16,7 +16,8 @@ function createTimeBlock(time){
 
 $(function(){
     const currentTime = $("#current-time");
-    const container = $("".container")
+    const container = $(".container");
+    
     function startTimer(){      
         setInterval(function(){
             currentTime.text(moment().format("YYYY-MM-DD HH:mm:ss"))
