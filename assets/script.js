@@ -30,12 +30,17 @@ $(function(){
     //user should be presented with 7am to 7pm time blocks
     //these blocks should be color coded -past present future
     //all previous notes
-    const timeBlock = createTimeBlock("9");
+
+    for (let index = 12; index < 18; index++){
+
+    const previousNotes = "";
+    
+    const timeBlock = createTimeBlock(index,previousNotes);
 
     container.appent(timeBlock);
 
 
-
+    }
 
 
 
