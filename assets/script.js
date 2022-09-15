@@ -15,6 +15,7 @@ const colTime = $("<div class='col-2 d-flex justify-content-center align-items-c
 //create text area input values in time block
 const colTextArea = $("<div class='col-8 time-col-textarea'>");
 const textArea = $("<textarea cols='80' rows='2' id='inputText' placeholder='Enter event here and click save'>").val(content);
+
 //create color coded blocks
 
 //create time constants for past present future formating
@@ -45,7 +46,7 @@ const exisitingNotes = localStorage.getItem(time);
 textArea.val(exisitingNotes);
 
 //create save button in timeblock
-const colButton = $("<div class ='col-2 time-col-button'>");
+const colButton = $("<div class ='btn-sm time-col-button'>");
 
 const saveButton = $("<button type='button' class='btn btn-primary save-button'>").text("Save");
 
