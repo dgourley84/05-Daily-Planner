@@ -83,7 +83,8 @@ $(function(){
 
 $(document).on('click','.save-button', function(event){
     //when user clicks on save button of a particular timeblock
-    //saves the entry to local storage
+    //should get the text written in text area
+    //saves the entry to local storage (based on row time)
     const buttonClicked = $(event.target);
     //saves text input
     const textArea = buttonClicked.parent().prev().children();
@@ -104,31 +105,10 @@ $(document).on('click','.save-button', function(event){
 
 })
 
-
-
-
-//all previous notes
-
-
-//when user clicks on save button,
-
-
-//should get the text written in text area
-//save the text saved to local storage (based on row time)
-
-
-
-
-
-// 
-
-
-
-
-
 //scenaios
 //can the user edit past time blocks?
 //yes since this will allow them to plan the next day.
+
 
 
 
