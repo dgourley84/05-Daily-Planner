@@ -45,7 +45,7 @@ const exisitingNotes = localStorage.getItem(time);
 textArea.val(exisitingNotes);
 
 //create save button in timeblock
-const colButton = $("<div class ='col-2 time-col-button'>");
+const colButton = $("<div class ='btn-sm time-col-button'>");
 
 const saveButton = $("<button type='button' class='btn btn-primary save-button'>").text("Save");
 
