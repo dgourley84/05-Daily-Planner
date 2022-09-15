@@ -15,6 +15,7 @@ const colTime = $("<div class='col-2 d-flex justify-content-center align-items-c
 //create text area input values in time block
 const colTextArea = $("<div class='col-8 time-col-textarea'>");
 const textArea = $("<textarea cols='80' rows='2' id='inputText' placeholder='Enter event here and click save'>").val(content);
+
 //create color coded blocks
 
 //create time constants for past present future formating
